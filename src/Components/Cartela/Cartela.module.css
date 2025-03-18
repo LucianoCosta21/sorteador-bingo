@@ -1,0 +1,46 @@
+@import url('../../App.css');
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerBtn {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 32px 0;
+}
+.btn {
+  width: 100%;
+  padding: 16px 24px;
+  text-align: center;
+  background-color: var(--azulForte-color);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--azul-color);
+}
+
+.td {
+  text-align: center;
+  padding: 16px 32px;
+  border: 1px solid var(--cinza-color);
+}
+.infoTabela {
+  text-align: center;
+  padding: 16px 32px;
+  border: 1px solid var(--cinza-color);
+  background-color: var(--azulForte-color);
+}
+
+@media print {
+  button,
+  header {
+    display: none;
+  }
+}

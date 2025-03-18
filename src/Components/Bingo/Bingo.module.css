@@ -1,0 +1,109 @@
+@import url('../../App.css');
+
+.container {
+  padding: 0 240px;
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 32px 0;
+  font-size: 32px;
+}
+
+.numeros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cinza-color);
+  color: black;
+  padding: 24px 32px;
+  border-radius: 10px;
+}
+
+.info_numeros_sorteados {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
+.info_numeros_restante {
+  text-align: center;
+  margin: 12px;
+  font-size: 24px;
+}
+.infoBingo {
+  margin-top: 16px;
+}
+.infoTexto {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  padding: 10px 10px;
+  border: 1px solid var(--branco-color);
+  width: 40px;
+}
+.containerNumeros {
+  margin-bottom: 100px;
+}
+.infoNome {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  padding: 12px 72px;
+  background-color: var(--azulForte-color);
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.listaBingo {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  gap: 12px;
+}
+.listaNome {
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  padding: 12px 72px;
+  background-color: var(--branco-color);
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.active {
+  background-color: var(--azul-color);
+}
+
+.containerBtn {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  padding: 16px 16px;
+  background-color: var(--cinza-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  width: 240px;
+  padding: 16px 24px;
+  text-align: center;
+  background-color: var(--azulForte-color);
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--azul-color);
+}
+.teste {
+  display: flex;
+  flex-direction: column;
+}

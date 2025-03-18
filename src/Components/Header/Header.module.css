@@ -1,0 +1,47 @@
+@import url('../../App.css');
+.containerHeader {
+  width: 100%;
+  padding: 16px 36px;
+  background-color: var(--azulForte-color);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_texto {
+  font-size: 24px;
+}
+
+.nav_container_texto {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.nav_container_texto > a {
+  padding: 8px 16px;
+  background-color: var(--azul-color);
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--preto-color);
+}
+
+.nav_container_texto > a:hover {
+  background-color: var(--branco-color);
+}
+
+.nav_container_texto > button {
+  padding: 8px 16px;
+  background-color: var(--azul-color);
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-style: none;
+}
+
+.nav_container_texto > button:hover {
+  background-color: var(--branco-color);
+}
